@@ -18,9 +18,9 @@ This project implements a Level application using the Feather RP2040 microcontro
 
 ## Building the Project
 1. Install Dependencies: Make sure CMake and the Pico SDK are set up on your system.
-  a. Installing CMake:
+  - Installing CMake:
     - sudo apt install cmake
-  b. Cloning Pico SDK:
+  - Cloning Pico SDK:
     - git clone https://github.com/raspberrypi/pico-sdk
 
 2. Clone Level Project:
@@ -36,7 +36,7 @@ This project implements a Level application using the Feather RP2040 microcontro
   - make
 
 5. Load level.uf2 from Build Directory to Device:
-  a. Enter BOOTSEL Mode:
+  - Enter BOOTSEL Mode:
     - Connect Feather RP2040 to computer while holding down BOOTSEL button.
-  b. Load UF2 to Device:
+  - Load UF2 to Device:
     - In file explorer, copy level.uf2 executable into RP2040 file system.
