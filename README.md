@@ -31,11 +31,14 @@ This project implements a Level application using the Feather RP2040 microcontro
   - mkdir build
   - cd build
 
-4. Run CMake and Build:
+4. Export PICO SDK Path (replace {PATH/TO/PICO-SDK} to actual path to pico-sdk folder):
+  - export PICO_SDK_PATH={PATH/TO/PICO-SDK}
+
+5. Run CMake and Build:
   - cmake ..
   - make
 
-5. Load level.uf2 from Build Directory to Device:
+6. Load level.uf2 from Build Directory to Device:
   - Enter BOOTSEL Mode:
     - Connect Feather RP2040 to computer while holding down BOOTSEL button.
   - Load UF2 to Device:
